@@ -1,0 +1,10 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+ul{display: flex;flex-direction: row;
+background-color: green;width: 100%;
+list-style: none;}
+li{width: 50%;text-transform: capitalize;text-align: center;
+	border-right: 1px solid white;padding: 20px 0;}
+	li:hover{
+		background-color: rgba(0, 250, 0, .30);
+		color: white;
+	}
